@@ -1,3 +1,4 @@
+
 .home :hover a{
     height: 50px;
     width: 200px;
@@ -13,7 +14,6 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    
 }
 
 .home img{
@@ -29,20 +29,19 @@
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #DB9065;
     width: 100%;
     height: 80px;
-    align-items: center;
-    gap: 200px;
-    
+    /* align-items: center;     */
+    /* gap: 200px; */
 }
 
-.cabeçalho >img{
+/* .cabeçalho > img{
     height: 30px;
     display: flex;
     flex-direction: row;
-}
+} */
 
 .cabeçalho a{
     display: flex;
@@ -59,6 +58,7 @@
     transition: all 0.5s;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
+    /* align-items: center; */
 }
 
 .home-text1{
@@ -115,16 +115,16 @@
     grid-column-gap: 54px;
     inset-block: unset;
     justify-content: center;
-    gap: 150px;
+    /* margin-bottom: 20px; */
+    /* gap: 150px; */
 }
 
 
 .containner1  img{
-    height: 300px;
+    /* height: 300px; */
     width: 560px;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-top: 138px;
-    
 }
 
 
@@ -153,8 +153,8 @@
     flex-direction: row-reverse;
     inset-block:unset;
     justify-content: center;
-    padding-right: 70px;
-    gap: 150px;
+    /* padding-right: 70px; */
+    gap: 59px;  
 }
 
 
@@ -181,8 +181,9 @@
 
 
 .containner2  img{
-    height: 300px;
+    /* height: 300px; */
     width: 560px;
     border-radius: 8px;
-    margin-top: 138px;   
+    /* gap: 20px; */
+    /* margin-top: 138px;    */
 }
